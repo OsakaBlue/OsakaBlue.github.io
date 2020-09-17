@@ -1,0 +1,232 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   font-family: sans-serif;
+   letter-spacing: 0.04em;
+}
+
+.contact-us {
+	max-width: 938px; 
+	margin: 100px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 7%;
+}
+
+.our-contacts {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.send-us-message {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    width: 540px;
+    background-color: #fff;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+	border-radius: 10px;
+	padding: 56px;
+ }
+
+
+ a {
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	color: #1F3F68; 
+ 	margin-bottom: 16px;	
+}
+
+ .img {
+ 	margin-bottom: 70px;
+ }
+ .address {
+ 	margin-bottom: 24px;
+ }
+
+ .text {
+ 	width: 300px;
+ 	margin-bottom: 40px;
+ 	opacity: 0.6;
+ }
+
+.phone {
+	margin-bottom: 40px;
+}
+
+#phone2 {
+	margin-bottom: 40px;
+}
+
+.online {
+	margin-top: 40px;
+	margin-bottom: 24px;
+}
+
+.phone-icon {
+	margin-right: 20px;
+}
+
+.web-icon {
+	margin-right: 18px;
+}
+
+.send-us-message {
+	font-size: 16px;
+	line-height: 30px;
+	color: #1F3F68;
+}
+
+.send-us-message h4 {
+	margin-bottom: 50px;
+	font-size: 20px; 
+}
+
+
+.name {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 430px;
+	height: 70px;
+	border-radius: 10px;
+	border: 1px solid #356EAD;
+	padding: 21px 30px;
+	outline: none;
+}
+.name::placeholder {
+	opacity: 0.2;
+} 
+
+.name:focus {
+
+}
+
+.mail {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 430px;
+	height: 70px;
+	border-radius: 10px;
+	border: 1px solid #356EAD;
+	padding: 21px 30px;
+	outline: none;
+}
+
+.mail::placeholder {
+	opacity: 0.2;
+} 
+
+.textarea {
+	margin-top: 10px;
+	margin-bottom: ;
+	width: 430px;
+	height: 144px;
+	border-radius: 10px;
+	border: 1px solid #356EAD;
+	resize: none;
+	padding: 21px 30px;
+	outline: none;
+}
+
+.textarea::placeholder {
+	opacity: 0.2;
+}
+
+button {
+	width: 428px;
+	height: 72px;
+	background-color: #5A98D0;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+	outline: none;
+	border: none;
+	color: #fff;
+	line-height: 26px;
+	letter-spacing: 0.04em;
+	margin-top: 72px;
+}
+
+label {
+	opacity: 0.8;
+}
+
+
+
+@media only screen and (max-width: 1279px) {
+	.contact-us {
+	max-width: 750px; 
+	margin: 100px auto;
+}
+
+	.send-us-message {
+    	width: 400px;
+		padding: 50px;
+ }
+
+	.name {
+		width: 300px
+}
+	.mail {
+		width: 300px
+	}
+
+	.textarea {
+		width: 300px
+	}
+
+
+button {
+	width: 300px;
+	margin-top: 50px;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+	.contact-us {
+	max-width: 600px; 
+	margin: 0px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns:100%;
+}
+
+.our-contacts {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 0 auto;
+}
+
+.send-us-message {
+	margin: 100px auto;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    width: 400px;
+	padding: 50px;
+ }
+
+
+}
+
+
+@media only screen and (max-width: 530px) {
+		.contact-us {
+	max-width: 375px; 
+	margin: 0px auto;
+}
+
+.send-us-message {
+    width: 370px;
+	padding: 30px;
+ }
+
+}
